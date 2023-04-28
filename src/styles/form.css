@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  display: block;
+  height: 34px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: transparent;
+  margin-top: 16px;
+  padding-left: 5px;
+}
+.input-field:hover {
+  background: transparent;
+  border: 1px solid #ff6600;
+}
+.input-field:visited {
+  background: transparent;
+  border: 1px solid #ff6600;
+}
+.error {
+  text-align: left;
+  color: red;
+}
